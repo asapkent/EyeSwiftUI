@@ -40,7 +40,7 @@ struct teamView : View {
     
     // NavigationButton(destination: Text(hike.name)) creates view that shows teams name
     
-    return NavigationButton(destination: Text(hike.name)) {
+    return NavigationButton(destination: TeamDetails(hike: hike)) {
     HStack {
             Image(hike.imageURL)
                 .resizable()
