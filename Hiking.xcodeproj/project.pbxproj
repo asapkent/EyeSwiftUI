@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B687E31422C0370E00296A8B /* TeamDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687E31322C0370E00296A8B /* TeamDetails.swift */; };
 		B6F71A2B22C00BDF0019264B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F71A2A22C00BDF0019264B /* AppDelegate.swift */; };
 		B6F71A2D22C00BDF0019264B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F71A2C22C00BDF0019264B /* SceneDelegate.swift */; };
 		B6F71A3022C00BDF0019264B /* Hiking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6F71A2E22C00BDF0019264B /* Hiking.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B687E31322C0370E00296A8B /* TeamDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetails.swift; sourceTree = "<group>"; };
 		B6F71A2722C00BDF0019264B /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F71A2A22C00BDF0019264B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6F71A2C22C00BDF0019264B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				B6F71A2A22C00BDF0019264B /* AppDelegate.swift */,
 				B6F71A2C22C00BDF0019264B /* SceneDelegate.swift */,
 				B6F71A3122C00BDF0019264B /* ContentView.swift */,
+				B687E31322C0370E00296A8B /* TeamDetails.swift */,
 				B6F71A3322C00BE00019264B /* Assets.xcassets */,
 				B6F71A3822C00BE00019264B /* LaunchScreen.storyboard */,
 				B6F71A3B22C00BE00019264B /* Info.plist */,
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F71A5F22C00C970019264B /* HikeData.swift in Sources */,
+				B687E31422C0370E00296A8B /* TeamDetails.swift in Sources */,
 				B6F71A2B22C00BDF0019264B /* AppDelegate.swift in Sources */,
 				B6F71A3022C00BDF0019264B /* Hiking.xcdatamodeld in Sources */,
 				B6F71A3222C00BDF0019264B /* ContentView.swift in Sources */,
