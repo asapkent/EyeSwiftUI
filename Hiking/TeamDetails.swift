@@ -25,7 +25,9 @@ struct TeamDetails: View {
                   self.zoomIn.toggle()
             }
         }
-            //Text(hike.name)
+            Text(hike.teamDiscription)
+            .font(.custom("Roboto-Light", size: 20))
+            
            
         }.navigationBarTitle(Text(hike.name))
             //.navigationBarTitle(Text(hike.name), displayMode: .inline)
